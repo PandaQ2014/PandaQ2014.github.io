@@ -372,7 +372,7 @@ static const struct file_operations zero_fogs = {
 <ul>
 <li>addr 表示预取数据的地址；</li>
 <li>rw 表示读写属性，1表示可写，0表示只读；</li>
-<li>locality表示数据在cache中的时间局部性，0表示读取完值后不用保留在cache中，1-3表示时间局部性逐渐增强。<br>下面是prefetc进行优化的一个例子。<br><img src="https://raw.githubusercontent.com/songshuyu2018/PicUploader/master/images/prefetch%E4%BD%BF%E7%94%A8%E4%BE%8B%E5%AD%90.png" alt="prefetch使用例子"></li>
+<li>locality表示数据在cache中的时间局部性，0表示读取完值后不用保留在cache中，1-3表示时间局部性逐渐增强。<br>下面是prefetch进行优化的一个例子。<br><img src="https://raw.githubusercontent.com/songshuyu2018/PicUploader/master/images/prefetch%E4%BD%BF%E7%94%A8%E4%BE%8B%E5%AD%90.png" alt="prefetch使用例子"></li>
 </ul>
 <h2 id="9-asmlinkage"><a href="#9-asmlinkage" class="headerlink" title="9. asmlinkage"></a>9. asmlinkage</h2><pre><code class="C">&lt;arch/x86/include/asm/linkage.h&gt;
 
